@@ -4,10 +4,7 @@ class getNews {
   import net.ruippeixotog.scalascraper.browser.JsoupBrowser
   import net.ruippeixotog.scalascraper.dsl.DSL._
   import net.ruippeixotog.scalascraper.dsl.DSL.Extract._
-  import net.ruippeixotog.scalascraper.dsl.DSL.Parse._
   import play.api.libs.json._
-  import play.api.libs.json.Reads._
-  import play.api.libs.functional.syntax._
   import java.io._
   import scala.io.Source
   import java.text.SimpleDateFormat
@@ -23,17 +20,18 @@ class getNews {
   var dates: String = ""
   var date = new SimpleDateFormat("dd/MM/yyyy")
 
+  // fungsi untuk mengambil informasi judul, isi, penulis, editor dan tanggal dari link sebuah berita di Kompas.com
   def getURL(url: String): Unit = {
-
     val browser = JsoupBrowser()
     val doc2 = browser.get(s"${url}")
 
     judul = doc2 >> text("title")
+    judul = judul.replaceAll("\"","'")
     println(judul)
 
     val p = doc2 >> texts("p")
     content  = p.mkString(" ")
-    content = content.replaceAll("\"","")
+    content = content.replaceAll("\"","'")
     println(content)
 
     penulis = doc2 >> text("#penulis")
@@ -48,19 +46,17 @@ class getNews {
     var inputDates = inputDate.parse(dates)
     dates = dateFormat.format(inputDates)
     print(dates)
-
-//    var a = doc2 >> text("article__date")
-//    print(a)
-
   }
 
+  // fungsi untuk menulis json ke file coba.json di folder json
   def write(json: JsValue, fn: String): Unit = {
-    val writer = new PrintWriter(new File(s"/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/${fn}.json" ))
-//    val writer = new PrintWriter(new FileOutputStream(new File(s"/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/${fn}.json"),true))
+//    val writer = new PrintWriter(new File(s"/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/${fn}.json" ))
+    val writer = new PrintWriter(new FileOutputStream(new File(s"/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/${fn}.json"),true))
     writer.write(s"${json},\n")
     writer.close()
   }
 
+  // fungsi untuk mengkonversi/merubah informasi yang didapat menjadi bentuk json
   def toJSON():JsValue = {
      json = Json.parse(s"""
     {
@@ -74,13 +70,7 @@ class getNews {
     return json
   }
 
-  def readJSON(name: String): JsValue = {
-    val dir = "/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/"
-    val stream = Source.fromFile(s"${dir}${name}").getLines.mkString
-    val lat = Json.parse(stream)
-    return lat
-  }
-
+  // fungsi untuk membaca isi dari file coba.json
   def readJSON(name: String,bagian: String): JsValue = {
     val dir = "/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/"
     val stream = Source.fromFile(s"${dir}${name}").getLines.mkString
