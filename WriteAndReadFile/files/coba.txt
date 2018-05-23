@@ -1,0 +1,1 @@
+ini adalah string yang dibaca untuk percobaan 123
