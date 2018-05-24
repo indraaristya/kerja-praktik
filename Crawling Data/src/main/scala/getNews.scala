@@ -27,31 +27,39 @@ class getNews {
 
     judul = doc2 >> text("title")
     judul = judul.replaceAll("\"","'")
-    println(judul)
+//    println(judul)
 
     val p = doc2 >> texts("p")
     content  = p.mkString(" ")
     content = content.replaceAll("\"","'")
-    println(content)
+//    println(content)
 
-    penulis = doc2 >> text("#penulis")
-    penulis = penulis.drop(7)
-    println(penulis)
+    if (doc2.toString.contains("penulis")) {
+      penulis = doc2 >> text("#penulis")
+      penulis = penulis.drop(7)
+    } else {
+      penulis = "None"
+    }
+//    println(penulis)
 
-    editor = doc2 >> text("#editor")
-    editor = editor.drop(6)
-    println(editor)
+    if (doc2.toString.contains("editor")) {
+      editor = doc2 >> text("#editor")
+      editor = editor.drop(6)
+    } else {
+      editor = "None"
+    }
+//    println(editor)
 
     dates = doc2 >> attr("content")("meta[name=content_PublishedDate]")
     var inputDates = inputDate.parse(dates)
     dates = dateFormat.format(inputDates)
-    print(dates)
+//    print(dates)
   }
 
   // fungsi untuk menulis json ke file coba.json di folder json
   def write(json: JsValue, fn: String): Unit = {
-//    val writer = new PrintWriter(new File(s"/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/${fn}.json" ))
-    val writer = new PrintWriter(new FileOutputStream(new File(s"/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/${fn}.json"),true))
+//    val writer = new PrintWriter(new File(s"/Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/json/${fn}.json" ))
+    val writer = new PrintWriter(new FileOutputStream(new File(s"/Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/json/${fn}.json"),true))
     writer.write(s"${json},\n")
     writer.close()
   }
@@ -72,7 +80,7 @@ class getNews {
 
   // fungsi untuk membaca isi dari file coba.json
   def readJSON(name: String,bagian: String): JsValue = {
-    val dir = "/Users/indraaristya/Documents/KP - NoLimit/Crawling Data/json/"
+    val dir = "/Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/json/"
     val stream = Source.fromFile(s"${dir}${name}").getLines.mkString
     val lat = Json.parse(stream)
     val hasil = (lat \ s"${bagian}").get

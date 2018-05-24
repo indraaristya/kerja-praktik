@@ -27,7 +27,7 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-common;9.4.8.v20171121 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-common;9.4.8.v20171121 [compile->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.6 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.6 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.6
 [debug] 	found org.scala-lang#scala-library;2.12.6 in sbt-chain
 [debug] 	[2.12.6] org.scala-lang#scala-library;2.12.6
@@ -57,6 +57,21 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.5 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.12;3.0.5
+[debug] 	found org.scalactic#scalactic_2.12;3.0.5 in sbt-chain
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.12;7.2.18 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.12;7.2.18
@@ -527,6 +542,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
@@ -879,6 +906,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->compile]
@@ -1227,6 +1266,7 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile]
@@ -1235,6 +1275,22 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
@@ -1587,6 +1643,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->compile]
@@ -1899,6 +1967,21 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.cssparser#cssparser;0.9.24 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.cssparser#cssparser;0.9.24 [runtime->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.cssparser#cssparser;0.9.24 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.5
+[debug] 	found org.scalatest#scalatest_2.12;3.0.5 in sbt-chain
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test->compile]
@@ -1919,6 +2002,7 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->runtime]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
@@ -1939,6 +2023,22 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->runtime(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->master(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test->compile]
@@ -1971,6 +2071,17 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test->compile]
@@ -2298,6 +2409,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
@@ -2652,6 +2775,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile-internal->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile-internal->compile]
@@ -3008,6 +3143,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
@@ -3360,6 +3507,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->compile]
@@ -3713,6 +3872,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime-internal->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime-internal->compile]
@@ -4070,6 +4241,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [compile->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [compile->compile]
@@ -4422,6 +4605,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [runtime->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [runtime->compile]
@@ -4734,6 +4929,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.cssparser#cssparser;0.9.24 [runtime->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.cssparser#cssparser;0.9.24 [runtime->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.cssparser#cssparser;0.9.24 [runtime->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test->compile]
@@ -4754,6 +4961,7 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->runtime]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile]
@@ -4774,6 +4982,22 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->runtime(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->master(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->compile(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test->compile]
@@ -4806,6 +5030,14 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test->compile]
@@ -5088,6 +5320,18 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.cssparser#cssparser;0.9.24 [test->master]
 [debug] == resolving dependencies for default#crawling-data$sources;0.1 [optional]
 [debug] == resolving dependencies for default#crawling-data$sources;0.1 [provided]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalatest#scalatest_2.12;3.0.5 [test-internal->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->net.sourceforge.htmlunit#neko-htmlunit;2.28 [test-internal->compile]
@@ -5108,6 +5352,7 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->runtime]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->master(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->compile]
@@ -5128,6 +5373,22 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test-internal->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->xerces#xercesImpl;2.11.0 [test-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->default]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scalaz#scalaz-core_2.12;7.2.18 [test-internal->compile]
@@ -5160,6 +5421,14 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test-internal->compile(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty#jetty-xml;9.4.8.v20171121 [test-internal->master]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(compile)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile(*)]
+[debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test-internal->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121 [test-internal->compile]
@@ -5475,9 +5744,6 @@
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->optional(default)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [scala-tool->master]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
-[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
 [debug] == resolving dependencies default#crawling-data$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)]
@@ -5503,71 +5769,59 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.28!neko-htmlunit.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.8.v20171121!jetty-http.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-common;9.4.8.v20171121!websocket-common.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.4!httpclient.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.8.v20171121!jetty-http.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] 		tried /Users/indraaristya/.ivy2/local/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.8.9/srcs/jackson-datatype-jsr310-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar
-[debug] 		tried /Users/indraaristya/.ivy2/local/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.8.9/srcs/jackson-datatype-jdk8-sources.jar
-[debug] 	[NOT REQUIRED] commons-io#commons-io;2.6!commons-io.jar(src)
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.8.v20171121!jetty-xml.jar(src)
+[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)
+[debug] 	[NOT REQUIRED] org.jsoup#jsoup;1.11.2!jsoup.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.28!htmlunit-core-js.jar(src)
 [debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.12;7.2.18!scalaz-core_2.12.jar(src)
 [debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.29!htmlunit.jar(src)
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] 	[NOT REQUIRED] commons-net#commons-net;3.6!commons-net.jar(src)
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.7!httpcore.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.8.v20171121!jetty-util.jar(src)
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (13ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (13ms)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.29!htmlunit.jar(src)
+[debug] settings loaded (12ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] settings loaded (12ms)
+[debug] 	default resolver: default
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (10ms)
 [debug] 	default cache: /Users/indraaristya/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5575,9 +5829,134 @@
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] 	local [file]
-[debug] settings loaded (13ms)
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] 	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.12;2.18.0!nscala-time_2.12.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.7!httpcore.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] settings loaded (15ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] 	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] 	[NOT REQUIRED] commons-net#commons-net;3.6!commons-net.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.8.v20171121!jetty-util.jar(src)
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121!websocket-client.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] 	[NOT REQUIRED] net.ruippeixotog#scala-scraper_2.12;2.1.0!scala-scraper_2.12.jar(src)
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.24!cssparser.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.8.v20171121!jetty-io.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.7!commons-lang3.jar(src)
+[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.6.7!play-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.4!httpclient.jar(src)
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (24ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (34ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (19ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] settings loaded (26ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.8.v20171121!jetty-client.jar(src)
+[debug] settings loaded (17ms)
 [debug] 	default cache: /Users/indraaristya/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5587,169 +5966,96 @@
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-api;9.4.8.v20171121!websocket-api.jar(src)
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.8.v20171121!jetty-io.jar(src)
-[debug] settings loaded (36ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)
-[debug] settings loaded (12ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 		tried /Users/indraaristya/.ivy2/local/com.typesafe.play/play-functional_2.12/2.6.7/srcs/play-functional_2.12-sources.jar
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7-sources.jar
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] 		tried /Users/indraaristya/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.8.9/srcs/jackson-annotations-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.8.v20171121!websocket-client.jar(src)
-[debug] 	[NOT REQUIRED] org.jsoup#jsoup;1.11.2!jsoup.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.4!httpmime.jar(src)
-[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.28!htmlunit-core-js.jar(src)
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (48ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] settings loaded (22ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.7!commons-lang3.jar(src)
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (28ms)
-[debug] settings loaded (62ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.12;2.18.0!nscala-time_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] 		tried /Users/indraaristya/.ivy2/local/org.typelevel/macro-compat_2.12/1.1.1/srcs/macro-compat_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[debug] settings loaded (27ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
 [debug] 	shared [file]
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.6.7!play-functional_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (51ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-text;1.2!commons-text.jar(src)
-[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
-[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.12;7.2.18!scalaz-core_2.12.jar(src)
-[debug] settings loaded (33ms)
-[debug] 	default cache: /Users/indraaristya/.ivy2/cache
-[debug] 	default resolver: default
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.4!httpmime.jar(src)
 [debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /Users/indraaristya/.ivy2
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (42ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (19ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (31ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /Users/indraaristya/.ivy2/cache
+[debug] settings loaded (49ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	local [file]
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.8.v20171121!jetty-client.jar(src)
-[debug] settings loaded (18ms)
+[debug] settings loaded (10ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (37ms)
 [debug] 	default cache: /Users/indraaristya/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -5758,77 +6064,39 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (16ms)
+[debug] including url: jar:file:/Users/indraaristya/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.1.5/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (42ms)
 [debug] 	default cache: /Users/indraaristya/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.8.v20171121!jetty-xml.jar(src)
 [debug] 	shared [file]
 [debug] 	default [chain] [local, main]
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.24!cssparser.jar(src)
-[debug] 	[NOT REQUIRED] net.ruippeixotog#scala-scraper_2.12;2.1.0!scala-scraper_2.12.jar(src)
-[debug] 		tried /Users/indraaristya/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.8.9/srcs/jackson-databind-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src) (1002ms)
-[debug] 		tried /Users/indraaristya/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.8.9/srcs/jackson-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.6.7/play-functional_2.12-2.6.7-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.12;2.6.7!play-functional_2.12.jar(src) (1044ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.9/jackson-datatype-jsr310-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(src) (1132ms)
-[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar(src)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.8.9/jackson-datatype-jdk8-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src) (1210ms)
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.9/jackson-annotations-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(src) (1345ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src) (1870ms)
-[debug] 		tried /Users/indraaristya/.ivy2/local/com.typesafe.play/play-json_2.12/2.6.7/srcs/play-json_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.6.7/play-json_2.12-2.6.7-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.12;2.6.7!play-json_2.12.jar(src) (1142ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src) (5625ms)
-[debug] :: resolution report :: resolve 1036ms :: artifacts dl 5777ms
-[debug] 	report for default#crawling-data$sources;0.1 compile produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-compile.xml
-[debug] 	report for default#crawling-data$sources;0.1 runtime produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-runtime.xml
-[debug] 	report for default#crawling-data$sources;0.1 test produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-test.xml
-[debug] 	report for default#crawling-data$sources;0.1 provided produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-provided.xml
-[debug] 	report for default#crawling-data$sources;0.1 optional produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-optional.xml
-[debug] 	report for default#crawling-data$sources;0.1 compile-internal produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-compile-internal.xml
-[debug] 	report for default#crawling-data$sources;0.1 runtime-internal produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-runtime-internal.xml
-[debug] 	report for default#crawling-data$sources;0.1 test-internal produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-test-internal.xml
-[debug] 	report for default#crawling-data$sources;0.1 plugin produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-plugin.xml
-[debug] 	report for default#crawling-data$sources;0.1 pom produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-pom.xml
-[debug] 	report for default#crawling-data$sources;0.1 scala-tool produced in /Users/indraaristya/Documents/KP - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-scala-tool.xml
-[debug] 	resolve done (1036ms resolve - 5777ms download)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] settings loaded (18ms)
+[debug] 	default cache: /Users/indraaristya/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.6!commons-io.jar(src)
+[debug] :: resolution report :: resolve 1015ms :: artifacts dl 105ms
+[debug] 	report for default#crawling-data$sources;0.1 compile produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-compile.xml
+[debug] 	report for default#crawling-data$sources;0.1 runtime produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-runtime.xml
+[debug] 	report for default#crawling-data$sources;0.1 test produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-test.xml
+[debug] 	report for default#crawling-data$sources;0.1 provided produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-provided.xml
+[debug] 	report for default#crawling-data$sources;0.1 optional produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-optional.xml
+[debug] 	report for default#crawling-data$sources;0.1 compile-internal produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-compile-internal.xml
+[debug] 	report for default#crawling-data$sources;0.1 runtime-internal produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-runtime-internal.xml
+[debug] 	report for default#crawling-data$sources;0.1 test-internal produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-test-internal.xml
+[debug] 	report for default#crawling-data$sources;0.1 plugin produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-plugin.xml
+[debug] 	report for default#crawling-data$sources;0.1 pom produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-pom.xml
+[debug] 	report for default#crawling-data$sources;0.1 scala-tool produced in /Users/indraaristya/Documents/Kerja Praktek - NoLimit/Crawling Data/target/scala-2.12/resolution-cache/reports/default-crawling-data$sources-scala-tool.xml
+[debug] 	resolve done (1015ms resolve - 105ms download)
