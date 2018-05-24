@@ -309,14 +309,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527145556160</updated>
-      <workItem from="1527145559559" duration="1195000" />
+      <workItem from="1527145559559" duration="2506000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="file_accessTest - 2018.05.24 at 14h 15m 27s.xml">
-      <configuration name="file_accessTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="file_accessTest - 2018.05.24 at 14h 15m 43s.xml">
       <configuration name="file_accessTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -344,9 +341,12 @@
     <history-entry file="file_accessTest - 2018.05.24 at 14h 22m 12s.xml">
       <configuration name="file_accessTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="file_accessTest - 2018.05.24 at 14h 54m 54s.xml">
+      <configuration name="file_accessTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1195000" />
+    <option name="totallyTimeSpent" value="2506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -354,7 +354,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="sbt" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50078124" side_tool="true" visible="true" weight="0.61096257" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.35" side_tool="true" visible="true" weight="0.61096257" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" />
@@ -370,7 +370,7 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921876" visible="true" weight="0.61096257" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.65" visible="true" weight="0.61096257" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
