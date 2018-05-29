@@ -1,8 +1,8 @@
-# kerja-praktik
+# kerja-praktik (IntelliJ IDEA)
 Internship @NoLimit (PT. NL Indonesia) in Bandung.
 
 
-# WriteReadFiles
+# WriteReadFiles 
 This folder contains a scala sbt program about write to file and read text in the files. You need to check the directory that set on the program to get it right.
 
 # Crawling Data
