@@ -10,3 +10,8 @@ This folder contains a scala sbt program about get text from a URL. The URL that
 
 # Akka.io
 This folder contains a scala sbt program. I just started learning Akka.io.
+
+
+
+# -----
+The others files are restricted to view because of company secrets.
